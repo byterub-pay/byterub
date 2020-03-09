@@ -1,42 +1,42 @@
-# MoneroV
+# ByteRub
 
-Copyright (c) 2018 The MoneroV Project.   
+Copyright (c) 2018 The ByteRub Project.   
 Copyright (c) 2014-2018 The Monero Project.   
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Website: [monerov.org](https://monerov.org)
-- Github: [https://github.com/monerov/monerov-gui](https://github.com/monerov/monerov-gui)
-- Mail: [team@monerov.org](mailto:team@monerov.org)
+- Website: [byterub.org](https://byterub.org)
+- Github: [https://github.com/byterub-pay/byterub-gui](https://github.com/byterub-pay/byterub-gui)
+- Mail: [team@byterub.org](mailto:team@byterub.org)
 
 
 ## Build
 
 | Operating System      | Processor | Build |
 | --------------------- | -------- |--------|
-| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.monerov.org/png?builder=monerov-static-ubuntu-amd64)](https://build.monerov.org/builders/monerov-static-ubuntu-amd64)
-| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.monerov.org/png?builder=monerov-static-osx-10.12)](https://build.monerov.org/builders/monerov-static-osx-10.12)
-| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.monerov.org/png?builder=monerov-static-win64)](https://build.monerov.org/builders/monerov-static-win64)
+| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.byterub.org/png?builder=byterub-static-ubuntu-amd64)](https://build.byterub.org/builders/byterub-static-ubuntu-amd64)
+| OSX 10.12             |  amd64   | [![OSX 10.12 amd64](https://build.byterub.org/png?builder=byterub-static-osx-10.12)](https://build.byterub.org/builders/byterub-static-osx-10.12)
+| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.byterub.org/png?builder=byterub-static-win64)](https://build.byterub.org/builders/byterub-static-win64)
 
 
 ## Introduction
 
-MoneroV is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+ByteRub is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** MoneroV uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** ByteRub uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, MoneroV is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, ByteRub is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this project
 
-This is the core implementation of MoneroV. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of MoneroV that uses the protocol and network in a compatible manner.
+This is the core implementation of ByteRub. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of ByteRub that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
-**Anyone is welcome to contribute to MoneroV's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
+**Anyone is welcome to contribute to ByteRub's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
 
 
 ## License
@@ -45,12 +45,12 @@ See [LICENSE](LICENSE).
 
 ## Scheduled software upgrades
 
-MoneroV uses a fixed-schedule mandatory software upgrade (hard fork) mechanism to implement new features. This means that users of MoneroV (end users and service providers) need to run current versions and upgrade their software on a regular schedule. Mandatory software upgrades occur during the months of March and September. The required software for these upgrades will be available prior to the scheduled date. Please check the repository prior to this date for the proper MoneroV software version. Below is the historical schedule and the projected schedule for the next upgrade.
+ByteRub uses a fixed-schedule mandatory software upgrade (hard fork) mechanism to implement new features. This means that users of ByteRub (end users and service providers) need to run current versions and upgrade their software on a regular schedule. Mandatory software upgrades occur during the months of March and September. The required software for these upgrades will be available prior to the scheduled date. Please check the repository prior to this date for the proper ByteRub software version. Below is the historical schedule and the projected schedule for the next upgrade.
 
 Dates are provided in the format YYYY-MM-DD. 
 
 
-| Software upgrade block height | Date       | Fork version | Minimum MoneroV version | Recommended MoneroV version | Details                                                                            |  
+| Software upgrade block height | Date       | Fork version | Minimum ByteRub version | Recommended ByteRub version | Details                                                                            |  
 | ------------------------------ | -----------| ----------------- | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------- |
 | 1009827                        | 2016-03-22 | v2                | v0.9.4                 | v0.9.4                     | Allow only >= ringsize 3, blocktime = 120 seconds, fee-free blocksize 60 kb       |
 | 1141317                        | 2016-09-21 | v3                | v0.9.4                 | v0.10.0                    | Splits coinbase into denominations  |
@@ -58,7 +58,7 @@ Dates are provided in the format YYYY-MM-DD.
 | 1288616                        | 2017-04-15 | v5                | v0.10.3.0              | v0.10.3.1                  | Adjusted minimum blocksize and fee algorithm      |
 | 1400000                        | 2017-09-16 | v6                | v0.11.0.0              | v0.11.0.0                  | Allow only RingCT transactions, allow only >= ringsize 5      |
 | 1546000                        | 2018-04-06 | v7                | v0.12.0.0              | v0.12.0.0                  | Cryptonight variant 1, ringsize >= 7, sorted inputs
-| 1564966                        | 2018-05-03 | v8                | v0.13.0.0              | v0.13.0.0                  | MoneroV split height
+| 1564966                        | 2018-05-03 | v8                | v0.13.0.0              | v0.13.0.0                  | ByteRub split height
 
 X's indicate that these details have not been determined as of commit date.
 
@@ -66,7 +66,7 @@ X's indicate that these details have not been determined as of commit date.
 
 Approximately three months prior to a scheduled software upgrade, a branch from Master will be created with the new release version tag. Pull requests that address bugs should then be made to both Master and the new release branch. Pull requests that require extensive review and testing (generally, optimizations and new features) should *not* be made to the release branch. 
 
-## Compiling MoneroV from source
+## Compiling ByteRub from source
 
 ### Dependencies
 
@@ -107,15 +107,15 @@ build the library binary manually. This can be done with the following command `
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone --recursive https://github.com/monerov/monerov.git`
+`$ git clone --recursive https://github.com/byterub-pay/byterub.git`
 
 If you already have a repo cloned, initialize and update:
 
-`$ cd monerov && git submodule init && git submodule update`
+`$ cd byterub && git submodule init && git submodule update`
 
 ### Build instructions
 
-MoneroV uses the CMake build system and a top-level [Makefile](Makefile) that
+ByteRub uses the CMake build system and a top-level [Makefile](Makefile) that
 invokes cmake commands as needed.
 
 #### On Linux and OS X
@@ -123,7 +123,7 @@ invokes cmake commands as needed.
 * Install the dependencies
 * Change to the root of the source code directory and build:
 
-        cd monerov
+        cd byterub
         make
 
     *Optional*: If your machine has several cores and enough memory, enable
@@ -136,9 +136,9 @@ invokes cmake commands as needed.
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monerov/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/byterub/build/release/bin"` to `.profile`
 
-* Run MoneroV with `monerovd --detach`
+* Run ByteRub with `byterubd --detach`
 
 * **Optional**: build and run the test suite to verify the binaries:
 
@@ -166,7 +166,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * `apt-get update && apt-get upgrade` to install all of the latest software
 
-* Install the dependencies for MoneroV from the 'Debian' column in the table above.
+* Install the dependencies for ByteRub from the 'Debian' column in the table above.
 
 * Increase the system swap size:
 ```	
@@ -175,10 +175,10 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 	CONF_SWAPSIZE=1024  
 	sudo /etc/init.d/dphys-swapfile start  
 ```
-* Clone monerov and checkout most recent release version:
+* Clone byterub and checkout most recent release version:
 ```
-    git clone --recursive https://github.com/monerov/monerov.git
-	cd monerov
+    git clone --recursive https://github.com/byterub-pay/byterub.git
+	cd byterub
 	git checkout master
 ```
 * Build:
@@ -189,15 +189,15 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monerov/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/byterub/build/release/bin"` to `.profile`
 
-* Run MoneroV with `monerovd --detach`
+* Run ByteRub with `byterubd --detach`
 
 * You may wish to reduce the size of the swap file after the build has finished, and delete the boost directory from your home directory
 
 #### *Note for Raspbian Jessie users:*
 
-If you are using the older Raspbian Jessie image, compiling MoneroV is a bit more complicated. The version of Boost available in the Debian Jessie repositories is too old to use with MoneroV, and thus you must compile a newer version yourself. The following explains the extra steps, and has been tested on a Raspberry Pi 2 with a clean install of minimal Raspbian Jessie.
+If you are using the older Raspbian Jessie image, compiling ByteRub is a bit more complicated. The version of Boost available in the Debian Jessie repositories is too old to use with ByteRub, and thus you must compile a newer version yourself. The following explains the extra steps, and has been tested on a Raspberry Pi 2 with a clean install of minimal Raspbian Jessie.
 
 * As before, `apt-get update && apt-get upgrade` to install all of the latest software, and increase the system swap size
 
@@ -208,7 +208,7 @@ If you are using the older Raspbian Jessie image, compiling MoneroV is a bit mor
 	sudo /etc/init.d/dphys-swapfile start  
 ```
 
-* Then, install the dependencies for MoneroV except `libunwind` and `libboost-all-dev`
+* Then, install the dependencies for ByteRub except `libunwind` and `libboost-all-dev`
 
 * Install the latest version of boost (this may first require invoking `apt-get remove --purge libboost*` to remove a previous version if you're not using a clean install):
 ```
@@ -225,7 +225,7 @@ If you are using the older Raspbian Jessie image, compiling MoneroV is a bit mor
 ```
 * Wait ~4 hours
 
-* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone monerov and checkout most recent release version" step.
+* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone byterub and checkout most recent release version" step.
 
 #### On Windows:
 
@@ -289,15 +289,15 @@ By default, in either dynamically or statically linked builds, binaries target t
 * ```make release-static-win64``` builds binaries on 64-bit Windows portable across 64-bit Windows systems
 * ```make release-static-win32``` builds binaries on 64-bit or 32-bit Windows portable across 32-bit Windows systems
 
-## Running monerovd
+## Running byterubd
 
 The build places the binary in `bin/` sub-directory within the build directory
 from which cmake was invoked (repository root by default). To run in
 foreground:
 
-    ./bin/monerovd
+    ./bin/byterubd
 
-To list all available options, run `./bin/monerovd --help`.  Options can be
+To list all available options, run `./bin/byterubd --help`.  Options can be
 specified either on the command line or in a configuration file passed by the
 `--config-file` argument.  To specify an option in the configuration file, add
 a line with the syntax `argumentname=value`, where `argumentname` is the name
@@ -305,17 +305,17 @@ of the argument without the leading dashes, for example `log-level=1`.
 
 To run in background:
 
-    ./bin/monerovd --log-file monerovd.log --detach
+    ./bin/byterubd --log-file byterubd.log --detach
 
 To run as a systemd service, copy
-[monerovd.service](utils/systemd/monerovd.service) to `/etc/systemd/system/` and
-[monerovd.conf](utils/conf/monerovd.conf) to `/etc/`. The [example
-service](utils/systemd/monerovd.service) assumes that the user `monerov` exists
+[byterubd.service](utils/systemd/byterubd.service) to `/etc/systemd/system/` and
+[byterubd.conf](utils/conf/byterubd.conf) to `/etc/`. The [example
+service](utils/systemd/byterubd.service) assumes that the user `byterub` exists
 and its home is the data directory specified in the [example
-config](utils/conf/monerovd.conf).
+config](utils/conf/byterubd.conf).
 
 If you're on Mac, you may need to add the `--max-concurrency 1` option to
-monerov-wallet-cli, and possibly monerovd, if you get crashes refreshing.
+byterub-wallet-cli, and possibly byterubd, if you get crashes refreshing.
 
 ## Internationalization
 
@@ -323,25 +323,25 @@ See [README.i18n.md](README.i18n.md).
 
 ## Using Tor
 
-While MoneroV isn't made to integrate with Tor, it can be used wrapped with torsocks, if you add --p2p-bind-ip 127.0.0.1 to the monerod command line. You also want to set DNS requests to go over TCP, so they'll be routed through Tor, by setting DNS_PUBLIC=tcp or use a particular DNS server with DNS_PUBLIC=tcp://a.b.c.d (default is 8.8.4.4, which is Google DNS). You may also disable IGD (UPnP port forwarding negotiation), which is pointless with Tor. To allow local connections from the wallet, you might have to add TORSOCKS_ALLOW_INBOUND=1, some OSes need it and some don't. Example:
+While ByteRub isn't made to integrate with Tor, it can be used wrapped with torsocks, if you add --p2p-bind-ip 127.0.0.1 to the monerod command line. You also want to set DNS requests to go over TCP, so they'll be routed through Tor, by setting DNS_PUBLIC=tcp or use a particular DNS server with DNS_PUBLIC=tcp://a.b.c.d (default is 8.8.4.4, which is Google DNS). You may also disable IGD (UPnP port forwarding negotiation), which is pointless with Tor. To allow local connections from the wallet, you might have to add TORSOCKS_ALLOW_INBOUND=1, some OSes need it and some don't. Example:
 
-`DNS_PUBLIC=tcp torsocks monerovd --p2p-bind-ip 127.0.0.1 --no-igd`
+`DNS_PUBLIC=tcp torsocks byterubd --p2p-bind-ip 127.0.0.1 --no-igd`
 
 or:
 
-`DNS_PUBLIC=tcp TORSOCKS_ALLOW_INBOUND=1 torsocks monerovd --p2p-bind-ip 127.0.0.1 --no-igd`
+`DNS_PUBLIC=tcp TORSOCKS_ALLOW_INBOUND=1 torsocks byterubd --p2p-bind-ip 127.0.0.1 --no-igd`
 
 TAILS ships with a very restrictive set of firewall rules. Therefore, you need to add a rule to allow this connection too, in addition to telling torsocks to allow inbound connections. Full example:
 
 `sudo iptables -I OUTPUT 2 -p tcp -d 127.0.0.1 -m tcp --dport 19091 -j ACCEPT`
 
-`DNS_PUBLIC=tcp torsocks ./monerovd --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 --data-dir /home/amnesia/Persistent/your/directory/to/the/blockchain`
+`DNS_PUBLIC=tcp torsocks ./byterubd --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 --data-dir /home/amnesia/Persistent/your/directory/to/the/blockchain`
 
-`./monerov-wallet-cli`
+`./byterub-wallet-cli`
 
 ## Debugging
 
-This section contains general instructions for debugging failed installs or problems encountered with MoneroV. First ensure you are running the latest version built from the Github repo.
+This section contains general instructions for debugging failed installs or problems encountered with ByteRub. First ensure you are running the latest version built from the Github repo.
 
 ### Obtaining stack traces and core dumps on Unix systems
 
@@ -354,7 +354,7 @@ Run the build.
 Once it stalls, enter the following command:
 
 ```
-gdb /path/to/monerovd `pidof monerovd` 
+gdb /path/to/byterubd `pidof byterubd` 
 ```
 
 Type `thread apply all bt` within gdb in order to obtain the stack trace
@@ -367,27 +367,27 @@ Enter `echo core | sudo tee /proc/sys/kernel/core_pattern` to stop cores from be
 
 Run the build.
 
-When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as monerovd. It may be named just `core`, or `core.xxxx` with numbers appended.
+When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as byterubd. It may be named just `core`, or `core.xxxx` with numbers appended.
 
 You can now analyse this core dump with `gdb` as follows:
 
-`gdb /path/to/monerovd /path/to/dumpfile`
+`gdb /path/to/byterubd /path/to/dumpfile`
 
 Print the stack trace with `bt`
 
-* To run monerov within gdb:
+* To run byterub within gdb:
 
-Type `gdb /path/to/monerovd`
+Type `gdb /path/to/byterubd`
 
 Pass command-line options with `--args` followed by the relevant arguments
 
-Type `run` to run monerovd
+Type `run` to run byterubd
 
 ### Analysing memory corruption
 
 We use the tool `valgrind` for this.
 
-Run with `valgrind /path/to/monerovd`. It will be slow.
+Run with `valgrind /path/to/byterubd`. It will be slow.
 
 ### LMDB
 
@@ -395,7 +395,7 @@ Instructions for debugging suspected blockchain corruption as per @HYC
 
 There is an `mdb_stat` command in the LMDB source that can print statistics about the database but it's not routinely built. This can be built with the following command:
 
-`cd ~/monerov/external/db_drivers/liblmdb && make`
+`cd ~/byterub/external/db_drivers/liblmdb && make`
 
 The output of `mdb_stat -ea <path to blockchain dir>` will indicate inconsistencies in the blocks, block_heights and block_info table.
 

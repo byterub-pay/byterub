@@ -342,7 +342,7 @@ namespace dns_utils
 
 //-----------------------------------------------------------------------
 // TODO: parse the string in a less stupid way, probably with regex
-// TODO: change to xmv
+// TODO: change to btr
 std::string address_from_txt_record(const std::string& s)
 {
   // make sure the txt record has "oa1:xmr" and find it
@@ -506,7 +506,7 @@ bool load_txt_records_from_dns(std::vector<std::string> &good_records, const std
 
   if (num_valid_records < 2)
   {
-    //LOG_PRINT_L0("WARNING: no two valid MoneroV DNS checkpoint records were received");
+    //LOG_PRINT_L0("WARNING: no two valid ByteRub DNS checkpoint records were received");
     return false;
   }
 
@@ -528,7 +528,7 @@ bool load_txt_records_from_dns(std::vector<std::string> &good_records, const std
 
   if (good_records_index < 0)
   {
-    LOG_PRINT_L0("WARNING: no two MoneroV DNS checkpoint records matched");
+    LOG_PRINT_L0("WARNING: no two ByteRub DNS checkpoint records matched");
     return false;
   }
 

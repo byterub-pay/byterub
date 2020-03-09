@@ -251,18 +251,18 @@ namespace cryptonote
 
   bool checkpoints::load_checkpoints_from_dns(network_type nettype)
   {
-    return true; // TODO: setup DNS checkpoints for MoneroV
+    return true; // TODO: setup DNS checkpoints for ByteRub
     std::vector<std::string> records;
 
     // All four MoneroPulse domains have DNSSEC on and valid
-    static const std::vector<std::string> dns_urls = { "checkpoints.monerov.com",
-      "checkpoints.getmonerov.com"
+    static const std::vector<std::string> dns_urls = { "checkpoints.byterub.com",
+      "checkpoints.getbyterub.com"
     };
 
-    static const std::vector<std::string> testnet_dns_urls = { "testpoints.monerov.com"
+    static const std::vector<std::string> testnet_dns_urls = { "testpoints.byterub.com"
     };
 
-    static const std::vector<std::string> stagenet_dns_urls = { "stagenetpoints.monerov.com"
+    static const std::vector<std::string> stagenet_dns_urls = { "stagenetpoints.byterub.com"
     };
 
     if (!tools::dns_utils::load_txt_records_from_dns(records, nettype == TESTNET ? testnet_dns_urls : nettype == STAGENET ? stagenet_dns_urls : dns_urls))

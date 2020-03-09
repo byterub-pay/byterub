@@ -122,7 +122,7 @@ void mlog_configure(const std::string &filename_base, bool console, const std::s
   el::Configurations c;
   c.setGlobally(el::ConfigurationType::Filename, filename_base);
   c.setGlobally(el::ConfigurationType::ToFile, "true");
-  const char *log_format = getenv("MONEROV_LOG_FORMAT");
+  const char *log_format = getenv("BYTERUB_LOG_FORMAT");
   if (!log_format)
     log_format = MLOG_BASE_FORMAT;
   c.setGlobally(el::ConfigurationType::Format, log_format);
@@ -140,7 +140,7 @@ void mlog_configure(const std::string &filename_base, bool console, const std::s
     rename(name, rname.c_str());
   });
   mlog_set_common_prefix();
-  const char *monero_log = getenv("MONEROV_LOGS");
+  const char *monero_log = getenv("BYTERUB_LOGS");
   if (!monero_log)
   {
     monero_log = get_default_categories(0);

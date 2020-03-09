@@ -698,7 +698,7 @@ namespace cryptonote
       case 12:
         return "monero";
       case 11:
-        return "monerov";
+        return "byterub";
       case 9:
         return "millinero";
       case 6:

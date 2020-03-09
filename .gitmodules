@@ -1,4 +1,4 @@
 [submodule "external/unbound"]
 	path = external/unbound
-	url = https://github.com/monerov/unbound.git
-	branch = monerov
+	url = https://github.com/byterub-pay/unbound.git
+	branch = byterub

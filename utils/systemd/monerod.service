@@ -1,21 +1,21 @@
 [Unit]
-Description=MoneroV Full Node
+Description=ByteRub Full Node
 After=network.target
 
 [Service]
-User=monerov
-Group=monerov
+User=byterub
+Group=byterub
 WorkingDirectory=~
-RuntimeDirectory=monerov
+RuntimeDirectory=byterub
 
 # Clearnet config
 #
 Type=forking
 
-PIDFile=/run/monerov/monerovd.pid
+PIDFile=/run/byterub/byterubd.pid
 
-ExecStart=/usr/bin/monerovd --config-file /etc/monerovd.conf \
-    --detach --pidfile /run/monerov/monerovd.pid
+ExecStart=/usr/bin/byterubd --config-file /etc/byterubd.conf \
+    --detach --pidfile /run/byterub/byterubd.pid
 
 # Tor config
 #

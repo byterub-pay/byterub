@@ -46,8 +46,8 @@ namespace tools
 
     // All four MoneroPulse domains have DNSSEC on and valid
     static const std::vector<std::string> dns_urls = {
-        "updates.monerov.com",
-        "updates.getmonerov.com"
+        "updates.byterub.com",
+        "updates.getbyterub.com"
     };
 
     if (!tools::dns_utils::load_txt_records_from_dns(records, dns_urls))
@@ -97,7 +97,7 @@ namespace tools
 
   std::string get_update_url(const std::string &software, const std::string &subdir, const std::string &buildtag, const std::string &version, bool user)
   {
-    const char *base = user ? "https://downloads.monerov.org/" : "https://updates.monerov.org/";
+    const char *base = user ? "https://downloads.byterub.org/" : "https://updates.byterub.org/";
 #ifdef _WIN32
     static const char *extension = strncmp(buildtag.c_str(), "install-", 8) ? ".zip" : ".exe";
 #else
